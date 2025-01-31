@@ -1,0 +1,75 @@
+:root{
+    --groen: #2D7649;
+    --pink: #D22F7A;
+    --orange: #E59B3E;
+    --blaa: #2D79B7;
+    --gul: #F6EC45;
+    --moerkgroen: #384A32;
+}
+@font-face {
+    font-family: faxefont;
+    src: url(../font/Fontspring-DEMO-cream-black.otf);
+}
+
+h1{
+    font-family: faxefont;
+    display: flex;
+    justify-content: center;
+    color: #F6EC45;
+    font-size: 100px;
+    text-shadow: 3px -3px #384A32, 4px -4px white;
+    margin-top: 0;
+}
+
+#faxe{
+    width: 20vw;
+    rotate: -90deg;
+    border: 7px solid var(--gul);
+    box-shadow: 4px 4px 0 var(--moerkgroen), 6px 6px white;
+    border-radius: 10px;
+}
+#faxe1{
+    width: 20vw;
+    rotate: -90deg;
+   /* margin-top: 10px;*/
+    border: 7px solid var(--gul);
+    box-shadow: 4px 4px 0 var(--moerkgroen), 6px 6px white;
+    border-radius: 10px;
+}
+
+.videoer{
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.knaps{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -60px;
+    
+}
+
+body{
+    background-color: var(--groen);
+}
+button{
+    font-family: 'faxefont';
+    font-size: xx-large;
+    box-shadow: 4px -4px 0 var(--gul); 
+    background-color: var(--moerkgroen);
+    color: #F6EC45;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+   
+    padding: 15px 20px 15px 20px;
+}
+
+button:hover{
+    box-shadow: 4px -4px 0 var(--moerkgroen), 6px -6px white; 
+    background-color: var(--gul);
+    color: var(--moerkgroen);
+}
