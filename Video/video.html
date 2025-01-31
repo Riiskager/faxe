@@ -6,22 +6,24 @@
     <link rel="stylesheet" href="vcss/video.css">
     <title>For det min yndlings Sodavand</title>
 </head>
-<body>
+<body id="lyd">
     
     <h1>
         Faxe Kondi
     </h1>
 
     <article class="videoer">
-    <video id="faxe" src="vimg/faxe.mp4">
+    <video id="faxe" src="vimg/faxe.mp4" muted>
         
     </video>
-    <video id="faxe1" src="vimg/faxe.mp4"></video>
+    <video id="faxe1" src="vimg/faxe.mp4" muted></video>
     </article>
 <article class="knaps">
-    <button id="knap" onclick="playVid()" type="button">Play</button>
+    <button onmouseover = "knaps()" id="knap" onclick="playVid()" type="button">Play</button>
 </article>
-  
+<audio id="dåse" src="audio/Soda_Can_Opening_Sound_Effect.mp3"></audio>
+    
+<audio id="enya" src="audio/Enya_-_Only_Time_Official_4K_Music_Video.mp3" autoplay></audio>
 
     <script src="vjs/video.js"></script>
 </body>
